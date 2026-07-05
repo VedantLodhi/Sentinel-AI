@@ -1,0 +1,30 @@
+# Python build and distribution artifacts
+*.egg-info/
+__pycache__/
+*.py[cod]
+*$py.class
+build/
+dist/
+
+# Virtual Environments
+.venv/
+venv/
+ENV/
+
+# Development cache files
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local configuration files containing secrets
+.env
+.env*.local
+
+# SQLite local databases
+*.db
+*.db-journal
+
+# VS Code / IDE files
+.vscode/
+.idea/
+.DS_Store
